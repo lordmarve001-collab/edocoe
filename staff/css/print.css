@@ -1,0 +1,172 @@
+@media Print{
+	*{
+	/*padding: 0;
+	margin:0;*/
+	background: transparent !important;
+	color: #000 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+.tjks{
+  display: none;
+}
+.modal-header{
+  display: none;
+}
+.cotreg{
+	width: 700px;
+}
+.modal{
+  display: none;
+}
+/*.line{
+  width: 700px;
+}*/
+	.button{
+        display: none;
+    }
+    .left-sidebar{
+        display: none;
+    }
+    .top-navbar{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+   .cotable{
+   	width: 1000px;
+    border: 1px solid black;
+   }
+   .cotabl{
+    width: 800px;
+    border: 1px solid black;
+   } 
+   .datas{
+   	width: 700px;
+   }
+   .cotreg{
+   	width: 700px;
+   	margin: auto;
+   }
+   .curr{
+    width: 700px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    /*border:1px solid black;*/
+   }
+   .curr td, .curr th{
+    padding: 10px 10px;
+    border:1px solid black;
+   }
+   .curr th{
+    text-align: left;
+   }
+.cotable td, .cotable th{
+    border: 1px solid black;
+    cellpadding:0px;
+    cellspacing:0px;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+.cotabl td, .cotabl th{
+    border: 1px solid black;
+    cellpadding:0px;
+    cellspacing:0px;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.lines,.list{
+  display: block;
+}
+.panels{
+  display: none;
+}
+.MsoNorma{
+ margin-bottom: 28px;
+}
+.hd{
+  display: none;
+}
+/*Always Rember to Implement*/
+/*
+footer {
+  font-size: 9px;
+  color: #f00;
+  text-align: center;
+}
+
+@page {
+  size: A4;
+  margin: 11mm 17mm 17mm 17mm;
+}
+
+@media print {
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .content-block, p {
+    page-break-inside: avoid;
+  }
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+}
+.brek{
+   position: fixed;
+   margin-bottom: 200%;
+}
+.header {
+  position: fixed;
+  top: 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+.wake{
+  margin-top: 8%;
+}*/
+.newsect{
+  display: none;
+}
+.not{display: none;}
+.mybt{display: none;}
+.lectsig{
+page-break-after: always;
+}
+.secb{
+  display: none;
+}
+.page1{
+  page-break-after: always !important; 
+}
+.mmm{
+    font-size: 0;
+    }
+.mmm:first-letter {
+    font-size: 15px;
+    padding: 5px 5px;
+}
+@page{
+	margin: 0.5cm;
+
+}
+@page :left {
+margin: 0.5cm;
+}
+
+@page :right {
+margin: 0.5cm;
+}
+.page{
+  page-break-after: always !important;
+}
+
+}

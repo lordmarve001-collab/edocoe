@@ -1,0 +1,74 @@
+@media Print{
+	*{
+	/*padding: 0;
+	margin:0;*/
+	background: transparent !important;
+	color: #000 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+.tjks{
+  display: none;
+}
+.modal-header{
+  display: none;
+}
+.cotreg{
+	width: 700px;
+}
+/*.line{
+  width: 700px;
+}*/
+	.button{
+        display: none;
+    }
+    .left-sidebar{
+        display: none;
+    }
+    .top-navbar{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+   .cotable{
+   	width: 700px;
+   } 
+   .datas{
+   	width: 700px;
+   }
+   .cotreg{
+   	width: 700px;
+   	margin: auto;
+   }
+.sections{
+  display: none;
+}
+.cotable td, .cotable th{
+    border: 1px solid black;
+    cellpadding:0px;
+    cellspacing:0px;
+    padding: 4px 4px;
+    font-size: 15px;
+}
+.lines{
+  display: block;
+}
+.panels{
+  display: none;
+}
+.MsoNorma{
+ margin-bottom: 28px;
+}
+@page{
+	margin: 0.5cm;
+}
+@page :left {
+margin: 0.5cm;
+}
+
+@page :right {
+margin: 0.5cm;
+}
+
+}

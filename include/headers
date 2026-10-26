@@ -1,0 +1,47 @@
+<head>
+ <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNIVERSITY OF AFRICA</title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="content/custom.css"/> -->
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.css"/>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="Scripts/modernizr-2.8.3.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.js"></script>
+    
+    <script type="text/javascript" src="Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/WebForms/WebForms.js"></script>
+    <script type="text/javascript" src="Scripts/WebForms/WebUIValidation.js"></script>
+    <script type="text/javascript" src="Scripts/WebForms/MenuStandards.js"></script>
+    <script type="text/javascript" src="Scripts/WebForms/GridView.js"></script>
+    <script type="text/javascript" src="Scripts/WebForms/DetailsView.js"></script>
+    <script type="text/javascript" src="Scripts/WebForms/TreeView.js"></script>
+    <script type="text/javascript" src="Scripts/WebForms/WebParts.js"></script>
+    <script type="text/javascript" src="Scripts/WebForms/Focus.js"></script>
+    <!-- <script src="/MsAjaxJs" type="text/javascript"></script> -->
+</head>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+ <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href=""><span><img alt="Logo" src="assets/images/academic-portal-logo.gif"height="40" /></span></a>
+                </div>
+                 <div class="navbar-collapse collapse">
+                    <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+
+                    </ul>
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                       <li><a href="https://edocoe.edu.ng">Home</a></li>
+                    </ul>
+                        
+                </div>
+                </div>
+</div>
+</div>

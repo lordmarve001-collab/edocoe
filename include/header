@@ -1,0 +1,24 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+ <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-bran" href="index"><span><img alt="Logo" src="<?php echo $logos?>" height="60" /></span></a>
+                </div>
+                 <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                    </ul>
+                    
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="https://edocoe.edu.ng">Home</a></li>
+                                <li><a href="#">Admission Checker</a></li>
+                                <li><a href="#">Graduation Portal</a></li>
+                                <li><a href="login">Portal Login</a></li> 
+                            </ul>
+                        
+                </div>
+</div>
+</div>

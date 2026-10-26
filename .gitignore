@@ -1,0 +1,41 @@
+.env
+.env.*
+!.env.example
+config.php
+dbconfig.php
+vendor/
+node_modules/
+storage/logs/
+*.log
+.DS_Store
+
+# Server logs
+error_log
+*.log
+
+# Backups and archives
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Dependencies and generated files
+node_modules/
+vendor/
+.DS_Store
+
+# Logs
+error_log
+*.log
+
+# Backups
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Dependencies and generated files
+node_modules/
+.DS_Store

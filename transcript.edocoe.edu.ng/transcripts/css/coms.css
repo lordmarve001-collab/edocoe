@@ -1,0 +1,173 @@
+/*@import "com.css";*/
+.imagesx {
+    width: 120px;
+    height: 100px;
+}
+
+.wake {
+    font-weight: bold;
+    font-family: 'Time New Romans' sans-serif;
+}
+
+.orgn {
+    margin-left: 135px;
+    position: absolute;
+    margin-top: 1%;
+    font-weight: bolder;
+    font-size:23px;
+
+}
+
+.orgnn {
+    text-align: center;
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 157px;
+    font-weight: bolder;
+    font-size:16px;
+    display:non;
+}
+
+/*
+    For the Page Printing
+*/
+@media print {
+    * {
+        /*padding: 0;
+	margin:0;*/
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .page {
+        display: block;
+    }
+
+    form {
+        width: auto;
+        /*border-left: 1px solid black;
+		border-right: 1px solid black;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black; */
+        background-image: url('../img/eulogo.jpg');
+        background-repeat: x-repeat;
+        background-size: cover;
+    }
+    /*#add{
+		text-align: center;
+		margin-top:5.9%;
+		position: absolute;
+		 margin-left: 40px;
+		 font-weight:bolder
+		margin: 8px;
+		padding-top:10px;
+		display: non;
+	}
+	.mover{
+		display: non;
+	}*/
+    .header {
+        display: none;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .sr-only {
+        display: none;
+    }
+
+    .orgn {
+        margin-left: 50px;
+        position: absolute;
+        margin-top: 1.5%;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .orgnn {
+        display: non;
+        font-size: 12px;
+        font-family: Helvetica, Arial, sans-serif;
+        position: absolute;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 5.9%;
+    }
+
+    .side-nav {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .main-content {
+        /*padding: 40px;
+	margin-top: 0;
+	padding: 0;
+	padding-top: 44px;*/
+    }
+    .printtable {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+.invoice-box {
+    max-width:100%;
+        margin: auto;
+        padding: 30px;
+        font-size: 16px;
+        /*line-height: 20px;*/
+        font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color: #555;
+    }
+    
+    .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+    }
+    
+    .invoice-box table td {
+        padding: 5px;
+        vertical-align: top;
+    }
+
+    .page {
+        display: block;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    @page :left {
+        margin: 0.5cm;
+    }
+
+    @page :right {
+        margin: 0.8cm;
+    }
+
+    @page :first {
+        margin: 1cm 2cm;
+    }
+}

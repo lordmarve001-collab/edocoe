@@ -1,0 +1,24 @@
+<footer>
+    
+       <div class="navbar navbar-default navbar-fixed-bottom">
+             <!-- <div class="navbar-text pull-right hidden-xs hidden-sm"> 
+        <a href="#"><i class="fa fa-facebook fa-2x"  style="color:black"></i></a>
+               <a href="#"><i class="fa fa-twitter fa-2x"  style="color:black"></i></a>
+               <a href="#"><i class="fa fa-google-plus fa-2x"  style="color:black"></i></a>
+               <a href="#"><i class="fa fa-instagram fa-2x"  style="color:black"></i></a>
+           </div> -->
+
+        <div class="container">
+            <div class="navbar-text pull-left"> 
+            <p><strong>Copy &copy; 2018 - <span id="demo"></span> Edo State College of Education, Edo State</strong> </p>
+         </div>
+       </div>
+
+           
+       </div>
+  
+</footer>
+<script type="text/javascript">
+        var d=new Date();
+        document.getElementById('demo').innerHTML = d.getFullYear();
+      </script>
